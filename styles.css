@@ -4,15 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: steelblue;
-}
 
 .emoji-container {
     height: 100vh;
     width: 100vw;
     display: flex;
-    background-color: blue;
+    background-color: slategrey;
     align-items: center;
     justify-content: center;
     
