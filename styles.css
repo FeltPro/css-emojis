@@ -1,0 +1,70 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.emoji-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.emoji {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin-right: 50px;
+    border-radius: 50%;
+    position: relative;
+    transform: translateX(50%);
+}
+
+.eyes {
+    position: absolute;
+    height: 25px;
+    width: 20px;
+    background-color: black;
+    top: 30%;
+    left: 50%;
+    justify-content: space-evenly;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.eyes.left {
+    left: 25%;
+}
+
+.eyes.right {
+    left: 62%;
+}
+
+.mouth-halfmoon-yellow {
+    position: absolute;
+    left: 18%;
+    top: 30%;
+    height: 58%;
+    width: 65%;
+    background-color: black;
+    border-radius: 0 0 50% 50%;
+    z-index: 0;
+}
+
+.mouth-halfmoon {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    height: 32%;
+    width: 80%;
+    background-color: yellow;
+    z-index: 1;
+}
